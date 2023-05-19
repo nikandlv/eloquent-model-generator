@@ -1,25 +1,25 @@
 {
-    "name": "jonathanguo/eloquent-model-generator",
-    "description": "Eloquent Model Generator",
-    "version": "2.0.15",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "JonathanGuo\\EloquentModelGenerator\\": "src/"
-        }
-    },
-    "require": {
-        "illuminate/database": "^5.0 | ^6.20.26 | ^7.0 | ^8.0 | ^9.0",
-        "illuminate/support": "^5.0 | ^6.0 | ^7.0 | ^8.0 | ^9.0",
-        "doctrine/dbal": "^3.1",
-        "barryvdh/laravel-ide-helper": "^2.6",
-        "jonathanguo/code-generator": "^1.0"
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "JonathanGuo\\EloquentModelGenerator\\Provider\\GeneratorServiceProvider"
-            ]
-        }
+  "name": "jonathanguo/eloquent-model-generator",
+  "description": "Eloquent Model Generator",
+  "version": "2.0.15",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "JonathanGuo\\EloquentModelGenerator\\": "src/"
     }
+  },
+  "require": {
+    "illuminate/database": "^5.0 | ^6.20.26 | ^7.0 | ^8.0 | ^9.0 | ^10.0",
+    "illuminate/support": "^5.0 | ^6.0 | ^7.0 | ^8.0 | ^9.0 | ^10.0",
+    "doctrine/dbal": "^3.1",
+    "barryvdh/laravel-ide-helper": "^2.6",
+    "jonathanguo/code-generator": "^1.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "JonathanGuo\\EloquentModelGenerator\\Provider\\GeneratorServiceProvider"
+      ]
+    }
+  }
 }
